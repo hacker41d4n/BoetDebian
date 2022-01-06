@@ -91,6 +91,8 @@ Wait a few minutes
 - Finish the installation: Select Continue
 
 - Your system will reboot in Debian
+
+- When logged in, open terminal and run sudo apt install git
 ```
 
 
