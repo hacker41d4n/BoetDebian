@@ -17,9 +17,12 @@ From initial Prompt type the following commands:
 
 ## Debian Install Instructions:
 ```
-Select Install not Graphical Install.
-Select your language.
-Select your country.
+- Select Install not Graphical Install.
+
+- Select your language.
+
+- Select your country.
+
 Select your keymap
 Enter hostname ex. Debian-PC
 Leave Domain open if you don't have a Domain
