@@ -1,7 +1,7 @@
 # BoetDebian
 Automatic Package Installer for Debian 
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.go2cloud.co.za%2Fnew-linux-pre-installed-images-added%2Fdebian-logo-horizontal%2F&psig=AOvVaw2hCWWWWuzOMe5-bSu4r9hC&ust=1641543887806000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDd5dPZnPUCFQAAAAAdAAAAABAD" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Ardebian_logo_512_0.png"/>
 
 This README contains the steps I do to install all my daily Debian Linux Packages I use to do my work. This script is compatible with any Debian based linux.
 
