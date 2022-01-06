@@ -1,9 +1,9 @@
 # BoetDebian
-Automatic Package Installer for Debian 
+Automatic Program Installer for Debian 
 <a href="url"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Ardebian_logo_512_0.png" align="left" height="312" width="312" ></a>
 
 
-This README contains the steps I do to install all my daily Debian Linux Packages I use to do my work. This script is compatible with any Debian based linux.
+This README contains the steps I use to install all my Linux Programs automatically instead of manually typing every command. This makes my life easier for when I use Linux.
 
 ---
 ## Create Debian ISO or Use Image
