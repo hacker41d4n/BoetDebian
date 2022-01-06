@@ -11,6 +11,7 @@ This README contains the steps I use to install all my Linux Programs automatica
 Download Debian from <https://www.debian.org/download> and put on a USB drive with [Etcher](https://www.balena.io/etcher/), [Ventoy](https://www.ventoy.net/en/index.html), or [Rufus](https://rufus.ie/en/)
 
 
+
 ## Boot Debian ISO
 
 From initial Prompt type the following commands:
