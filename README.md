@@ -1,6 +1,6 @@
 # BoetDebian
 Automatic Program Installer for Debian 
-<a href="url"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Ardebian_logo_512_0.png" align="left" height="312" width="312" ></a>
+<a href="url"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Ardebian_logo_512_0.png" align="left" height="315" width="315" ></a>
 
 
 This README contains the steps I use to install all my Linux Programs automatically instead of manually typing every command. This makes my life easier for when I use Linux.
