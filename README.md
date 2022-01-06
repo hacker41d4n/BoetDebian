@@ -16,37 +16,80 @@ Download Debian from <https://www.debian.org/download> and put on a USB drive wi
 From initial Prompt type the following commands:
 
 ## Debian Install Instructions:
+
+### Language and Country:
 ```
 - Select Install not Graphical Install.
 
 - Select your language.
 
 - Select your country.
+```
+### Keyboard:
+```
+- Select your keymap
+```
+### Account:
+```
+- Enter hostname ex. Debian-PC
 
-Select your keymap
-Enter hostname ex. Debian-PC
-Leave Domain open if you don't have a Domain
-leave Root Password blank, if you wish so.
-Enter new user ex. cake
-Enter your account password ex. 1234
-Partitioning method: Guided - use entire disk
-Select your drive (MAKE SURE YOU SELECT CORRECT DRIVE)
-Partitioning Scheme - All files in one parition
-Finish Partitioning
-Write the changes to disk - Yes
-Debian is now installing on your system - Just wait a few minutes.
-Scan extra installation media - NO
-Debian archive mirror country: Select your country
-Debian archive mirror: Select deb.debian.org
-HTTP Proxy information: Leave blank
+- Leave Domain open if you don't have a Domain
+
+- leave Root Password blank, if you wish so.
+
+- Enter new user ex. cake
+
+- Enter your account password ex. 1234
+```
+### Partitioning:
+```
+- Partitioning method: Guided - use entire disk
+
+- Select your drive (MAKE SURE YOU SELECT CORRECT DRIVE)
+
+- Partitioning Scheme - All files in one parition
+
+- Finish Partitioning
+
+- Write the changes to disk - Yes
+```
+### Installation:
+```
+- Debian is now installing on your system - Just wait a few minutes.
+
+- Scan extra installation media - NO
+```
+### Mirror:
+```
+- Debian archive mirror country: Select your country
+
+- Debian archive mirror: Select deb.debian.org
+
+- HTTP Proxy information: Leave blank
+```
+
 Wait a few minutes
-Package usage survey: NO
-Choose software to install - Defaults is fine
+
+### Packages & Software:
+```
+- Package usage survey: NO
+
+- Choose software to install - Defaults is fine
+```
+
 Wait a few minutes
-Install GRUB Boot - YES (Very Important)
-Select Device for boot loader installation: ex. /dev/sda
-Finish the installation: Select Continue
-Your system will reboot in Debian
+
+### Grub Bootloader:
+```
+- Install GRUB Boot - YES (Very Important)
+
+- Select Device for boot loader installation: ex. /dev/sda
+```
+### Installation Finished
+```
+- Finish the installation: Select Continue
+
+- Your system will reboot in Debian
 ```
 
 
