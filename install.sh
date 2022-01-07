@@ -1,15 +1,5 @@
 #!/bin/sh
 
-        ------------------------------------------------------------
-echo    #    ____             _   _____       _     _              #
-echo    #   |  _ \           | | |  __ \     | |   (_)             #
-echo    #   | |_) | ___   ___| |_| |  | | ___| |__  _  __ _ _ __   #
-echo    #   |  _ < / _ \ / _ \ __| |  | |/ _ \ '_ \| |/ _` | '_ \  #
-echo    #   | |_) | (_) |  __/ |_| |__| |  __/ |_) | | (_| | | | | #
-echo    #   |____/ \___/ \___|\__|_____/ \___|_.__/|_|\__,_|_| |_| #                                          
-        ------------------------------------------------------------
-
-
 echo "--------------------------------"
 echo "--           Updates          --"
 echo "--------------------------------"
@@ -22,22 +12,24 @@ echo "------------------------------------"
 echo "--          Applications          --"
 echo "------------------------------------"
 
-echo "The applications that will install"
-
 echo "------------------------------"
-echo "--           Music          --"
+echo "--           Snap           --"
 echo "------------------------------"
 
-curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add -
-echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-sudo apt-get update && sudo apt install spotify-client -y
+sudo apt install snapd
+
+echo "------------------------------"
+echo "--           Audio          --"
+echo "------------------------------"
+
+sudo snap install spotify
+sudo snap install audacity
 
 echo "------------------------------"
 echo "--           Video          --"
 echo "------------------------------"
 
-sudo apt install VLC
-
+sudo snap install VLC
 
 echo "----------------------------------"
 echo "--           Recording          --"
@@ -55,7 +47,7 @@ echo "--           Office          --"
 echo "-------------------------------"
 
 sudo apt install libreoffice
-
+sudo snap install teams
 
 echo "------------------------------"
 echo "--           Email          --"
@@ -63,28 +55,30 @@ echo "------------------------------"
 
 sudo apt install thunderbird
 
-
 echo "------------------------------"
 echo "--           Games          --"
 echo "------------------------------"
-
-sudo add-apt-repository multiverse
-sudo apt update && sudo apt install steam
-
-
-echo "---------------------------------------"
-echo "--           Virtualization          --"
-echo "---------------------------------------"
-
-wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian focal contrib"
-sudo apt update && sudo apt install virtualbox-6.1
-
 
 echo "------------------------------------"
 echo "--           Programming          --"
 echo "------------------------------------"
 
-wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
-sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
+sudo snap install code --classic
 
+echo "----------------------------------"
+echo "--           Photoshop          --"
+echo "----------------------------------"
+
+sudo snap install code --classic
+
+echo "------------------------------"
+echo "--           Chats          --"
+echo "------------------------------"
+
+sudo snap install telegram-desktop
+
+echo "--------------------------------"
+echo "--           Browser          --"
+echo "--------------------------------"
+
+sudo snap install brave
