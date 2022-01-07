@@ -15,7 +15,6 @@ echo "------------------------------------"
 echo "The applications that will install"
 
 echo "------------------------------"
-<<<<<<< Updated upstream
 echo "--           Music          --"
 echo "------------------------------"
 
@@ -24,8 +23,6 @@ echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sou
 sudo apt-get update && sudo apt install spotify-client -y
 
 echo "------------------------------"
-=======
->>>>>>> Stashed changes
 echo "--           Video          --"
 echo "------------------------------"
 
