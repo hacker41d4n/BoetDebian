@@ -32,6 +32,9 @@ From initial Prompt type the following commands:
 ```
 ### Account:
 ```
+
+
+
 - Enter hostname ex. Debian-PC
 
 - Leave Domain open if you don't have a Domain
@@ -94,5 +97,11 @@ Wait a few minutes
 
 - When logged in, open terminal and run sudo apt install git
 ```
+## Run BoetDebian
 
+```
+sudo git clone https://github.com/hacker41d4n/BoetDebian
+cd BoetDebian
+sh install.sh
+```
 
