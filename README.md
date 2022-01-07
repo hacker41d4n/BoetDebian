@@ -32,9 +32,6 @@ From initial Prompt type the following commands:
 ```
 ### Account:
 ```
-
-
-
 - Enter hostname ex. Debian-PC
 
 - Leave Domain open if you don't have a Domain
