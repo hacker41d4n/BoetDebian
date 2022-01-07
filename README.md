@@ -26,10 +26,12 @@ From initial Prompt type the following commands:
 
 - Select your country.
 ```
+
 ### Keyboard:
 ```
 - Select your keymap
 ```
+
 ### Account:
 ```
 - Enter hostname ex. Debian-PC
@@ -42,6 +44,7 @@ From initial Prompt type the following commands:
 
 - Enter your account password ex. 1234
 ```
+
 ### Partitioning:
 ```
 - Partitioning method: Guided - use entire disk
@@ -54,12 +57,14 @@ From initial Prompt type the following commands:
 
 - Write the changes to disk - Yes
 ```
+
 ### Installation:
 ```
 - Debian is now installing on your system - Just wait a few minutes.
 
 - Scan extra installation media - NO
 ```
+
 ### Mirror:
 ```
 - Debian archive mirror country: Select your country
@@ -68,7 +73,6 @@ From initial Prompt type the following commands:
 
 - HTTP Proxy information: Leave blank
 ```
-
 Wait a few minutes
 
 ### Packages & Software:
@@ -77,7 +81,6 @@ Wait a few minutes
 
 - Choose software to install - Defaults is fine
 ```
-
 Wait a few minutes
 
 ### Grub Bootloader:
@@ -86,14 +89,15 @@ Wait a few minutes
 
 - Select Device for boot loader installation: ex. /dev/sda
 ```
+
 ### Installation Finished
 ```
 - Finish the installation: Select Continue
 
 - Your system will reboot in Debian
 ```
-## Run BoetDebian
 
+## Run BoetDebian
 ```
 Open Terminal and run sudo apt install git
 sudo git clone https://github.com/hacker41d4n/BoetDebian
