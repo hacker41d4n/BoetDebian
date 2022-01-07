@@ -65,7 +65,7 @@ echo "----------------------------------"
 echo "--           Photoshop          --"
 echo "----------------------------------"
 
-sudo snap install code --classic
+sudo snap install gimp
 
 echo "------------------------------"
 echo "--           Chats          --"
