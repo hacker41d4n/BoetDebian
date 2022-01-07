@@ -99,9 +99,12 @@ Wait a few minutes
 
 ## Run BoetDebian
 ```
-Open Terminal and run sudo apt install git
-sudo git clone https://github.com/hacker41d4n/BoetDebian
-cd BoetDebian
-sh install.sh
+- Open Terminal and run sudo apt install git
+
+- sudo git clone https://github.com/hacker41d4n/BoetDebian
+
+- cd BoetDebian
+
+-sh install.sh
 ```
 
