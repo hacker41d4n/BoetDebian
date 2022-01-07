@@ -108,3 +108,8 @@ Wait a few minutes
 - sh install.sh
 ```
 
+## BoetDebian Finished installing:
+
+```
+Your system is required to reboot after BoetDebian is installed.
+```
