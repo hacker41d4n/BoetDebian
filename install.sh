@@ -7,6 +7,7 @@ echo "--------------------------------"
 sudo apt update 
 sudo apt upgrade 
 
+
 echo "------------------------------------"
 echo "--          Applications          --"
 echo "------------------------------------"
@@ -14,6 +15,7 @@ echo "------------------------------------"
 echo "The applications that will install"
 
 echo "------------------------------"
+<<<<<<< Updated upstream
 echo "--           Music          --"
 echo "------------------------------"
 
@@ -22,10 +24,13 @@ echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sou
 sudo apt-get update && sudo apt install spotify-client -y
 
 echo "------------------------------"
+=======
+>>>>>>> Stashed changes
 echo "--           Video          --"
 echo "------------------------------"
 
 sudo apt install VLC
+
 
 echo "----------------------------------"
 echo "--           Recording          --"
@@ -37,17 +42,28 @@ sudo apt install obs-studio
 
 sudo apt install simplescreenrecorder
 
+
 echo "-------------------------------"
 echo "--           Office          --"
 echo "-------------------------------"
 
 sudo apt install libreoffice
 
+
 echo "------------------------------"
 echo "--           Email          --"
 echo "------------------------------"
 
 sudo apt install thunderbird
+
+
+echo "------------------------------"
+echo "--           Games          --"
+echo "------------------------------"
+
+sudo add-apt-repository multiverse
+sudo apt update && sudo apt install steam
+
 
 echo "---------------------------------------"
 echo "--           Virtualization          --"
