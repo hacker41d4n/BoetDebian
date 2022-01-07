@@ -105,6 +105,6 @@ Wait a few minutes
 
 - cd BoetDebian
 
--sh install.sh
+- sh install.sh
 ```
 
