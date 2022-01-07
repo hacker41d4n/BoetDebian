@@ -94,12 +94,11 @@ Wait a few minutes
 - Finish the installation: Select Continue
 
 - Your system will reboot in Debian
-
-- When logged in, open terminal and run sudo apt install git
 ```
 ## Run BoetDebian
 
 ```
+Open Terminal and run sudo apt install git
 sudo git clone https://github.com/hacker41d4n/BoetDebian
 cd BoetDebian
 sh install.sh
