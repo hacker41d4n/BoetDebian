@@ -82,3 +82,17 @@ echo "--           Browser          --"
 echo "--------------------------------"
 
 sudo snap install brave
+
+
+echo "--------------------------------"
+echo "--           Updates          --"
+echo "--------------------------------"
+
+sudo apt update 
+sudo apt upgrade
+
+echo "-------------------------------"
+echo "--           Reboot          --"
+echo "-------------------------------"
+
+sudo reboot
