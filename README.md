@@ -1,4 +1,6 @@
 # BoetDebian
+<a href="url"><img src="https://img.shields.io/github/license/hacker41d4n/BoetDebian"></a>
+
 Automatic Program Installer for Debian 
 <a href="url"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Ardebian_logo_512_0.png" align="left" height="315" width="315" ></a>
 
@@ -6,13 +8,13 @@ Automatic Program Installer for Debian
 This README contains the steps I use to install all my Linux Programs automatically instead of manually typing every command. This makes my life easier for when I use Linux.
 
 ---
-## Create Debian ISO or Use Image
+## Create Debian ISO or Use Image:
 
 Download Debian from <https://www.debian.org/download> and put on a USB drive with [Etcher](https://www.balena.io/etcher/), [Ventoy](https://www.ventoy.net/en/index.html), or [Rufus](https://rufus.ie/en/)
 
 
 
-## Boot Debian ISO
+## Boot Debian ISO:
 
 From initial Prompt type the following commands:
 
@@ -90,14 +92,14 @@ Wait a few minutes
 - Select Device for boot loader installation: ex. /dev/sda
 ```
 
-### Installation Finished
+### Installation Finished:
 ```
 - Finish the installation: Select Continue
 
 - Your system will reboot in Debian
 ```
 
-## Run BoetDebian
+## Run BoetDebian:
 ```
 - Open Terminal and run sudo apt install git
 
