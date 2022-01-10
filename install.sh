@@ -77,9 +77,6 @@ echo -ne "
 ------------------------------------------------------------------------- 
 "                                                                         
 
-sudo apt install ffmpeg
-sudo add-apt-repository ppa:obsproject/obs-studio 
-sudo apt install obs-studio
 sudo apt install simplescreenrecorder
 
 echo -ne "
