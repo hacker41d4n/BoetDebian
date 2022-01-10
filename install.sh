@@ -76,7 +76,7 @@ echo -ne "
   ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝
 ------------------------------------------------------------------------- 
 "                                                                         
-
+sudo snap install obs-studio
 sudo apt install simplescreenrecorder
 
 echo -ne "
